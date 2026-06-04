@@ -1,0 +1,31 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": { "navigationBarTitleText": "AI数字人导游" }
+    },
+    {
+      "path": "pages/guide/index",
+      "style": { "navigationBarTitleText": "智能伴游", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/map/index",
+      "style": { "navigationBarTitleText": "景区地图" }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": { "navigationBarTitleText": "个人中心" }
+    },
+    {
+      "path": "pages/safety/index",
+      "style": { "navigationBarTitleText": "安全守护" }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "AI导游",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "easycom": { "autoscan": true }
+}

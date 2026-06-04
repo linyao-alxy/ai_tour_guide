@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" ...>
+    <modelVersion>4.0.0</modelVersion>
+    <parent><groupId>com.guide</groupId><artifactId>ai-digital-guide</artifactId><version>1.0.0-SNAPSHOT</version></parent>
+    <artifactId>service-itinerary</artifactId><packaging>jar</packaging><name>行程推荐服务</name>
+    <dependencies><dependency><groupId>com.guide</groupId><artifactId>service-common</artifactId><version>${project.version}</version></dependency><dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-web</artifactId></dependency></dependencies>
+</project>

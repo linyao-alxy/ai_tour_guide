@@ -1,0 +1,21 @@
+{
+  "name": "tourist-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI数字人导游 - 游客端",
+  "scripts": {
+    "dev:h5": "vite",
+    "build:h5": "vite build"
+  },
+  "dependencies": {
+    "pinia": "^2.1.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "sass": "^1.70.0",
+    "typescript": "^5.4.0",
+    "vite": "^5.2.0"
+  }
+}

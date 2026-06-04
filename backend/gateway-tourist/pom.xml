@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" ...>
+    <modelVersion>4.0.0</modelVersion>
+    <parent><groupId>com.guide</groupId><artifactId>ai-digital-guide</artifactId><version>1.0.0-SNAPSHOT</version></parent>
+    <artifactId>gateway-tourist</artifactId><packaging>jar</packaging><name>C端网关</name>
+    <dependencies>
+        <dependency><groupId>com.guide</groupId><artifactId>service-common</artifactId><version>${project.version}</version></dependency>
+        <dependency><groupId>org.springframework.cloud</groupId><artifactId>spring-cloud-starter-gateway</artifactId></dependency>
+        <dependency><groupId>io.jsonwebtoken</groupId><artifactId>jjwt-api</artifactId></dependency>
+        <dependency><groupId>io.jsonwebtoken</groupId><artifactId>jjwt-impl</artifactId><scope>runtime</scope></dependency>
+        <dependency><groupId>io.jsonwebtoken</groupId><artifactId>jjwt-jackson</artifactId><scope>runtime</scope></dependency>
+        <dependency><groupId>org.redisson</groupId><artifactId>redisson-spring-boot-starter</artifactId></dependency>
+    </dependencies>
+</project>

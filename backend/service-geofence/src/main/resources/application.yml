@@ -1,0 +1,8 @@
+spring.application.name=service-geofence
+server.port=8085
+spring.datasource.url=jdbc:postgresql://localhost:5432/ai_guide?currentSchema=tourist,admin
+spring.datasource.username=guide
+spring.datasource.password=guide123
+spring.data.redis.host=localhost
+spring.data.redis.port=6379
+spring.data.redis.password=redis123
